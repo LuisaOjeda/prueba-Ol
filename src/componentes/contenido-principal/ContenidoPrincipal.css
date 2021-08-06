@@ -1,6 +1,11 @@
 article {
-  padding: 2em;
+    padding: 2em;
 }
+
 .tr {
-  height: 1em !important;
+    height: 1em !important;
+}
+
+.table {
+    text-align: center;
 }

@@ -101,6 +101,8 @@ export const ContenidoPrincipal = () => {
                                 <td>{persona.correo}</td>
                                 <td>
 
+                                    <i className="fas fa-pencil-alt mr-3"></i>
+                                    <i className="far fa-trash-alt"></i>
                                 </td>
 
                             </tr>
@@ -117,14 +119,13 @@ export const ContenidoPrincipal = () => {
                 <div className="modal-dialog">
                     <div className="modal-content">
                         <div className="modal-header">
-                            <h5 className="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <h5 className="modal-title" id="exampleModalLabel">Crear Persona</h5>
                             <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
                         <div className="modal-body">
 
-                            {/* inicio */}
 
                             <div className="container">
                                 <div className="row row-cols-2">
@@ -206,8 +207,11 @@ export const ContenidoPrincipal = () => {
                             {/* fin */}
                         </div>
                         <div className="modal-footer">
-                            <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" className="btn btn-primary" onClick={() => guardarDatos()} >Guardar</button>
+                            <div className="row mt-2">
+                                <button type="button" className="btn btn-success col mr-5" data-dismiss="modal" onClick={() => guardarDatos()} >Guardar</button>
+
+                                <button type="button" className="btn btn-outline-success col  mr-3" data-dismiss="modal">cerrar</button>
+                            </div >
                         </div>
                     </div>
                 </div>

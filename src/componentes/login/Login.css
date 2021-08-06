@@ -1,0 +1,37 @@
+.fondo {
+  background-image: url("../../assets/img/login.png");
+  border-bottom-right-radius: 95%;
+  height: 56em;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.div-login {
+  margin-top: 18em;
+  width: 33em;
+  margin-left: 75em;
+  border-radius: 2em;
+  height: 28em;
+  -webkit-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+/* .div-aplication {
+  width: 15em;
+  margin-top: 19em;
+  margin-left: 15em;
+}
+.div-login {
+  background-color: aliceblue;
+  width: 24em;
+  margin-left: 52em;
+  margin-top: -12em;
+  border-radius: 2em;
+}
+.div-login-h1 {
+  text-align: center;
+} */

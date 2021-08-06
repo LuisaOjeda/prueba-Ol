@@ -3,58 +3,69 @@ import './Filtro.css';
 export const Filtro = () => {
     return (
         <div>
-            <h5 style={{ color: "rgb(57, 147, 225)", fontSize: "25px" }}> ICONO Filtrar búsqueda</ h5>
+            <h5 style={{ color: "rgb(57, 147, 225)", fontSize: "25px" }}>Filtrar búsqueda</ h5>
             <div className="listado-filtro">
-                <div className="input-group ">
-                    <p>Nombres <input type="text" className="form-control" placeholder="Usuario" aria-label="Username"
-                        aria-describedby="basic-addon1" /> </p>
+
+                <div className="form-group">
+                    <label>Nombres</label>
+                    <input type="text" className="form-control" id="Input-nombres"
+                    />
                 </div>
-                <br />
-                <div className="input-group" style={{ boxShadow: "teal", borderRadius: "5px" }}>
-                    <p>Apellidos <input type="text" className="form-control" placeholder="Usuario" aria-label="Username"
-                        aria-describedby="basic-addon1" /> </p>
+                <div className="form-group">
+                    <label>Apellidos</label>
+                    <input type="text" className="form-control" id="Input-apellidos" />
                 </div>
-                <br />
-                <div className="input-group ">
-                    <p>Identificacion(C.C) <input type="text" className="form-control " placeholder="Usuario"
-                        aria-label="Username" aria-describedby="basic-addon1" style={{ borderRadius: "5px" }} /> </p>
+
+                <div className="form-group">
+                    <label>Identificacion (CC)</label>
+                    <input type="number" className="form-control" />
                 </div>
-                <br />
-                <div className="mb-3">
-                    <p> Disabled select menu <br />
-                        <select id="disabledSelect" className="form-select">
-                            <option>jyjthbv</option>
-                            <option>1234 select</option>
-                            <option>Disabled select</option>
-                        </select>
-                    </p>
+
+
+                <div className="form-group">
+                    <label>Rol asociado</label>
+                    <select className="form-control" id="combo-rol">
+                        <option>Recolector</option>
+                        <option>Coordinador</option>
+                        <option>Conductor</option>
+                        <option>Digitador CG/UNO</option>
+                        <option>Administrador</option>
+                    </select>
                 </div>
-                <br />
-                <div className="mb-3">
-                    <p> Disabled select menu <br />
-                        <select id="disabledSelect" className="form-select">
-                            <option>jyjthbv</option>
-                            <option>1234 select</option>
-                            <option>Disabled select</option>
-                        </select>
-                    </p>
+
+
+                <div className="form-group">
+                    <label>Estado</label>
+                    <select className="form-control">
+                        <option>Activo</option>
+                        <option>Inactivo</option>
+                    </select>
                 </div>
-                <br />
-                <div className="input-group" style={{ boxShadow: "teal" }}>
-                    <p>Contraseña <input type="text" className="form-control" placeholder="Usuario" aria-label="Username"
-                        aria-describedby="basic-addon1" /> </p>
+
+                <div className="form-group">
+                    <label>Contraseña</label>
+                    <input type="text" className="form-control" />
                 </div>
-                <br />
-                <div className="input-group ">
-                    <p>Telefono <input type="text" className="form-control" placeholder="Usuario" aria-label="Username"
-                        aria-describedby="basic-addon1" /> </p>
+
+                <div className="form-group">
+                    <label>Telefono</label>
+                    <input type="number" className="form-control" />
                 </div>
-                <br />
-                <div className="input-group" style={{ boxShadow: "teal" }}>
-                    <p>Correo electronico <input type="text" className="form-control" placeholder="Usuario"
-                        aria-label="Username" aria-describedby="basic-addon1" /> </p>
+
+                <div className="form-group">
+                    <label>Correo electronico</label>
+                    <input type="email" className="form-control" placeholder="name@example.com" />
                 </div>
+
+
+
+                <div className="row mt-5" >
+                    <button type="button" className="btn btn-success col  mr-3">Filtrar</button>
+                    <button type="button" className="btn btn-outline-success col">Limpiar</button>
+                </div >
+
             </div>
-        </div>
+
+        </div >
     )
 }
