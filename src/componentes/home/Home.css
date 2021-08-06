@@ -1,0 +1,45 @@
+body {
+  background: rgb(245, 245, 245);
+}
+main {
+  width: 99%;
+  display: flex;
+  justify-content: space-around;
+}
+article {
+  width: 80%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+  margin-left: 5em;
+  margin-right: 1em;
+}
+table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+  margin-right: 18em;
+  margin-top: 4em;
+}
+.title-table {
+  display: flex;
+  margin-left: 4em;
+  justify-content: space-between;
+}
+.form-control {
+  border-radius: 5px;
+}
+
+aside {
+  margin-top: 2em;
+  width: 20%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.listado-filtro {
+  margin-top: 2em;
+}

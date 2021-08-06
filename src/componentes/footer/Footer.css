@@ -1,0 +1,7 @@
+footer {
+  background: white;
+  display: flex;
+  margin-left: 60px;
+  margin-top: 1em;
+  min-height: 4em;
+}

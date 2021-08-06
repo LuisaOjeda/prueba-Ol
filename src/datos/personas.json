@@ -1,0 +1,22 @@
+[
+    {
+        "nombres": "aa",
+        "apellidos": "aa",
+        "cedula": 2,
+        "correo": 2,
+        "estado": "Activo",
+        "contraseña": 1,
+        "rol": "Administrador",
+        "telefono": 3108470148
+    },
+    {
+        "nombres": "aa",
+        "apellidos": "aa",
+        "cedula": 3,
+        "correo": 2,
+        "estado": "Activo",
+        "contraseña": 1,
+        "rol": "Administrador",
+        "telefono": 3108470148
+    }
+]
